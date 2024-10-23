@@ -1,0 +1,3 @@
+This repo is a CNN(Convolutional Neural Network) model that predicts the thermal conductivity of Paraffin-expanded graphite composites. We generated the dataset using the QSGS(quartet structure generation set) and simulated the corresponding thermal conductivity using the LBM(Lattice Boltzmann Method).
+
+Credit to: Qu, Y., Sun, S., & Zhou, D. (2024). Prediction of thermal conductivity of paraffin-expanded graphite composite phase change materials by machine learning method. Journal of Energy Storage, 101, 113845. https://doi.org/10.1016/j.est.2024.113845
