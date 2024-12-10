@@ -22,4 +22,6 @@ Our model attempts to predict the output of the LBM. This model allows us to sav
 
 The model is a basic CNN, with an added multi-layered perceptron that runs alongside the CNN. The input to the MLP is the amount of expanded graphite in the sample. I found that the CNN had a hard time figuring out non-local patterns in the image, so I passed in some properties that take into account the entire image. The output of the CNN and the MLP are then combined in another MLP layer that then outputs a predicted thermal conductivity. Here is how the model performed. These are graphs showing the predicted thermal conductivity and actual thermal conductivity vs the amount of superfluous paraffin there was in the sample.
 
+The first graph is the entire range of inputs, while the second graph is zoomed in on the most volatile interval of the graph.
+
 ![Thermal Conductivity vs Superfluous Paraffin Vol Frac](./readme_images/model_accuracy.JPG) ![Same graph zoomed in on most volatile interval(0.3 - 0.38)](./readme_images/model_accuracy_zoomed_in.JPG)
